@@ -1,0 +1,94 @@
+#cs {
+	background-color: #222;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+}
+
+#center {
+	padding: 15%; 
+	text-align: center;
+	color: white;
+	text-shadow: 1px 2px 2px black,
+	             2px 4px 8px #1f1f1f;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1540835296355-c04f7a063cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80https://images.unsplash.com/photo-1540835296355-c04f7a063cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+	background-size: cover;
+	background-position: bottom;
+	font-family: Lato;
+    background-attachment: fixed;
+}
+
+hr {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    border-top: 2px solid white;
+}
+
+.btn-default {
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+#h1 {
+    font-weight: 900;
+    font-size: 4em;
+}
+
+#h3 {
+	font-weight: 700;
+}
+
+html {
+	height: 100%;
+}
+
+.panel-title {
+    font-size: 3em;
+}
+
+.col-md-9 {
+    
+    font-size: 20px;
+    line-height: 2;
+}   
+
+.panel-body {
+    background: url(rishabh-sharma--X-Q84VKUuk-unsplash.jpg);
+    background-size: cover;
+}
+
+#information {
+    color: white;
+    text-shadow: 1px 2px 2px black,
+                 2px 4px 8px #1f1f1f;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #3d225d;
+    border-color: #3d225d;
+}
+
+#pb {
+    background: url(marko-blazevic-INKqQcjNPCA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.panel-primary {
+    border: none;
+    margin-bottom: 60px;
+}

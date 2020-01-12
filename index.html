@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rubika</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/72623442c3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="rubika.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fas fa-cube"></i> Rubika</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select Catagory <span class="caret"></span></a>
+          <ul id="cs" class="dropdown-menu">
+          	<li><a href="#">2x2</a></li>
+            <li><a href="#">3x3</a></li>
+            <li><a href="#">4x4</a></li>
+            <li><a href="#">5x5</a></li>
+            <li><a href="#">6x6</a></li>
+            <li><a href="#">7x7</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Pyraminx</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Megaminx</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Scramble">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+   <div id="center">
+	<h1 id="h1">Rubika</h1>
+	<h3 id="h3">shortest solution to your Rubikamble</h3>
+  <h4>by Jyotishman</h4>
+	<hr>
+	<button type="button" class="btn btn-primary btn-lg"><i class="fas fa-cubes"></i> Get you Rubikolution</button>
+	</div>	
+</div>
+
+
+
+<div class="container">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <div class="container">
+    <h3 class="panel-title">About the Cube!</h3>
+    </div>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-9 col-xs-12">
+        <p id="information">Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Ideal Toy Corp. in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer and won the German Game of the Year special award for Best Puzzle that year. As of January 2009, 350 million cubes had been sold worldwide, making it the world's top-selling puzzle game. It is widely considered to be the world's best-selling toy.</p>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1552372910-bd19f8ec2c9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <div class="container">
+    <h3 class="panel-title">Erno Rubik</h3>
+    </div>
+  </div>
+  <div id="pb" class="panel-body">
+    <div class="row">
+      <div class="col-md-3 col-xs-12">
+        <div class="thumbnail">
+          <img src="erno.jpg">
+        </div>
+      </div>
+      <div class="col-md-9 col-xs-12">
+        <p id="information">Ernő Rubik, born 13 July 1944, is a Hungarian inventor, architect and professor of architecture. He is best known for the invention of mechanical puzzles including Rubik's Cube (1974), Rubik's Magic, Rubik's Magic: Master Edition, and Rubik's Snake.
+
+        While Rubik became famous for inventing the Rubik's Cube and his other puzzles, much of his recent work involves the promotion of science in education. Rubik is involved with several organisations such as Beyond Rubik's Cube, the Rubik Learning Initiative and the Judit Polgar Foundation all of whose aim is to engage students in science, mathematics, and problem solving at a young age.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+
+</body>
+</html>
